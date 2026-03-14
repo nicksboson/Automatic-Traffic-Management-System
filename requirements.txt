@@ -1,0 +1,21 @@
+# Core deep learning
+ultralytics          # YOLOv8 (object detection)
+
+# Tracking
+lapx>=0.5.2                  # Linear Assignment Problem solver (lap drop-in for Python 3.13+)
+filterpy==1.4.5              # For Kalman filtering
+scipy>=1.10.0                # Math + optimization (used in tracking)
+numpy>=1.23.0
+
+# Computer vision
+opencv-python>=4.10.0        # OpenCV main package
+opencv-contrib-python>=4.10.0   # Extra OpenCV utilities
+
+# Visualization
+matplotlib>=3.7.0
+pygame==2.5.2                # (optional) smoother real-time visualization
+
+# Utilities
+tqdm>=4.66.0                 # Progress bars
+pandas>=2.0.0                # For structured logging
+
